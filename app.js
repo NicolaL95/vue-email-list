@@ -3,8 +3,7 @@ const app = new Vue({
 
     data: {
         listIsFull: false,
-        emailList: [],
-        emailtest: ["otto", "otto", "otto", "otto",]
+        emailList: []
     },
     mounted() {
         for (let index = 0; index < 10; index++) {
