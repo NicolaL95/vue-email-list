@@ -18,7 +18,7 @@
 <body>
     <div id="app">
         <ul class="email">
-            <li v-for="email in emailList"></li>
+            <li v-show="listIsFull == true" v-for="(email,index) in emailList">{{emailList[index]}}</li>
         </ul>
     </div>
     <script src="app.js"></script>
